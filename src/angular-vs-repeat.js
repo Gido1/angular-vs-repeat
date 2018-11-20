@@ -465,7 +465,7 @@
                         var _prevClientSize;
                         function reinitOnClientHeightChange() {
                             var ch = getClientSize($scrollParent[0], clientSize);
-                            if (ch !== _prevClientSize) {
+                            if (ch && (ch !== _prevClientSize)) {
                                 reinitialize();
                                 if ($scope.$root && !$scope.$root.$$phase) {
                                     $scope.$apply();

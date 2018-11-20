@@ -4,14 +4,14 @@
   "description": "Virtual Scroll for AngularJS ngRepeat directive",
   "homepage": "http://kamilkp.github.io/angular-vs-repeat",
   "author": {
-    "name": "Kamil Pekala",
-    "email": "kamilkp@gmail.com",
-    "url": "http://github.com/kamilkp"
+    "name": "Naama Gido",
+    "email": "nama.gido@gmail.com",
+    "url": "http://github.com/Gido1"
   },
   "main": "src/angular-vs-repeat.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kamilkp/angular-vs-repeat.git"
+    "url": "https://github.com/Gido1/angular-vs-repeat.git"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

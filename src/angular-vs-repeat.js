@@ -475,12 +475,7 @@
                         }
 
                         $scope.$watch(function() {
-                            if (typeof window.requestAnimationFrame === 'function') {
-                                window.requestAnimationFrame(reinitOnClientHeightChange);
-                            }
-                            else {
-                                reinitOnClientHeightChange();
-                            }
+                            reinitOnClientHeightChange();
                         });
 
                         function updateInnerCollection() {
